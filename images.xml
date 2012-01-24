@@ -1,0 +1,28 @@
+<images>
+	<photo image="images/biblioteca.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>The National Library of Brasilia</head>]]></photo>
+	
+	<photo image="images/catedral.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Brasilia Cathedral</head>]]></photo>
+	
+	<photo image="images/congresso.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>National Congress building</head>]]></photo>
+	
+	<photo image="images/esplanada.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Esplanade of Ministries</head>]]></photo>
+	
+	<photo image="images/igrejinha.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>The Little Church</head>]]></photo>
+		
+	<photo image="images/ipe.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Purple Ipe</head>]]></photo>
+	
+	<photo image="images/museu.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>National Museum</head>]]></photo>
+	
+	<photo image="images/ponte.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Juscelino Kubitschek Bridge</head>]]></photo>
+
+	<photo image="images/ponte2.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Juscelino Kubitschek Bridge</head>]]></photo>
+</images>
