@@ -14,7 +14,15 @@
         }
     }
 </script>
-    
+<script type="text/javascript" src="flashinglinks.js">
+
+/***********************************************
+* Flashing Link Script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>    
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>SBCCI 2012</title>
 <style type="text/css">
@@ -206,6 +214,21 @@ var loadedobjects=""
 var rootdomain="http://"+window.location.hostname
 var bustcacheparameter=""
 
+var col = new String();
+var x=1;var y;
+
+function blink()
+{
+ if(x%2) 
+ {
+  col = "rgb(255,0,0)";
+ }else{
+  col = "rgb(255,255,255)";
+ }
+
+ aF.style.color=col;x++;if(x>2){x=1};setTimeout("blink()",500);
+}
+
 function ajaxpage(url, containerid){
 var page_request = false
 if (window.XMLHttpRequest) // if Mozilla, Safari etc
@@ -357,7 +380,7 @@ function MM_swapImage() { //v3.0
 	<a href="javascript:ajaxpage('sbcci/cfp.html', 'right');">Call for
 	Papers</font></a>
 	<a href="javascript:ajaxpage('sbcci/psubmission.html', 'right');">Paper
-	Submission</font></a>
+	Submission</font></a><img src="/.pics/new.gif">
 	<a href="javascript:ajaxpage('sbcci/tprogram.html', 'right');">Technical
 	Program</font></a>
 	<a href="javascript:ajaxpage('sbcci/tutinv.html', 'right');">Tutorials & Inviteds</font></a>
