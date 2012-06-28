@@ -1,13 +1,12 @@
 <html>
 <body>
 Publication title that the paper will appear: <?php echo $_POST['PubTitle']; ?><br/>
-Article Title:<?php echo $_POST['PubTitle']; ?><br/>
+Article Title: <?php echo $_POST['PubTitle']; ?><br/>
 Authors of the paper: <?php echo $_POST['PubTitle']; ?><br/>
-Date that the article was accepted for publication:  <?php echo $_POST['PubTitle']; ?><br/>
+Date that the article was accepted for publication: <?php echo $_POST['PubTitle']; ?><br/>
 Unique article identifier: <?php echo $_POST['PubTitle']; ?><br/>
 Three-letter code: <?php echo $_POST['PubTitle']; ?><br/>
 Authors e-mail address: <?php echo $_POST['PubTitle']; ?><br/>
-
 
 <form action="http://copyrightqa.ieee.org/ECTT/IntroPage.jsp" method="post">
 <input type="hidden" name="PubTitle" value="<?php echo $_POST['PubTitle']; ?>">
