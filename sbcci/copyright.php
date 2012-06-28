@@ -1,5 +1,5 @@
 <div id="right" align="left">
-<form action="sbcci/form_process.html" method="post">
+<form action="sbcci/form_process.php" method="post">
 Publication title that the paper will appear: <input type="text" name="PubTitle"><br/>
 Article Title: <input type="text" name="ArtTitle" ><br/>
 Authors of the paper: <input type="text" name="AuthName"><br/>
